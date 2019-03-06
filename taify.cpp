@@ -1,6 +1,9 @@
 #include <iostream>
+
 using namespace std;
+
 #define count_string 8
+
 class prototype_string{
 private:
     char *strng;
@@ -107,6 +110,7 @@ public:
         return true;
     }
 };
+
 int main() {
     prototype_string *main_string = new prototype_string;
     prototype_string *left_Path = new prototype_string[count_string];
